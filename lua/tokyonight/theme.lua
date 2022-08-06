@@ -320,7 +320,8 @@ function M.setup(config)
     -- NvimTreeFolderName= { fg = c.fg_float },
 
     -- NeoTree
-    NoeTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeIndentMarker = { fg = c.fg_gutter },
     NeoTreeRootName = { fg = c.blue, style = "bold" },
 
