@@ -319,6 +319,11 @@ function M.setup(config)
     NvimTreeSymlink = { fg = c.blue },
     -- NvimTreeFolderName= { fg = c.fg_float },
 
+    -- NeoTree
+    NoeTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NeoTreeIndentMarker = { fg = c.fg_gutter },
+    NeoTreeRootName = { fg = c.blue, style = "bold" },
+
     -- Fern
     FernBranchText = { fg = c.blue },
 
